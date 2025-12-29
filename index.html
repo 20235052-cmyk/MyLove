@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For my Jewel Ann💗</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background: linear-gradient(to bottom, #ffe6f0, #fff);
+      overflow-x: hidden;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(rgba(100, 62, 81, 0.6), rgba(255,105,180,0.6)),
+                  url(image1.jfif) center/cover no-repeat;
+      color: white;
+    }
+
+    .section-title {
+      color: #d63384;
+      margin-bottom: 30px;
+    }
+
+    .letter-box {
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #ffb6c1;
+      color: white;
+    }
+
+    /* 💗 FLOATING HEARTS */
+    .heart {
+      position: fixed;
+      bottom: -20px;
+      font-size: 20px;
+      animation: floatUp 10s linear infinite;
+      color: rgba(214, 51, 132, 0.6);
+      z-index: 0;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(-110vh); opacity: 0; }
+    }
+
+    /* 🎶 MUSIC BUTTON */
+    .music-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      background: #d63384;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 10px 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    /* 💕 REASONS CARD */
+    .reason-card {
+      background: #fff;
+      padding: 40px 30px;
+      border-radius: 25px;
+      font-size: 1.3rem;
+      color: #d63384;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* 💗 FINAL LOVE SCREEN */
+    .final-love {
+        min-height: 100vh;
+      background: linear-gradient(rgba(214, 51, 132, 0.6), rgba(255,182,193,0.9)),
+                  url(image2.jfif) center/cover no-repeat;
+      color: white;
+    }
+
+    .final-text {
+      font-size: 4rem;
+      font-weight: 700;
+    }
+
+    .final-subtext {
+      font-size: 1.4rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- 💗 FLOATING HEARTS -->
+<div class="heart" style="left:10%; animation-duration:12s;">💗</div>
+<div class="heart" style="left:30%; animation-duration:9s;">💖</div>
+<div class="heart" style="left:50%; animation-duration:11s;">💕</div>
+<div class="heart" style="left:70%; animation-duration:10s;">💗</div>
+<div class="heart" style="left:90%; animation-duration:13s;">💖</div>
+
+<!--🎶BACKGROUN MUSIC--> 
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎶 Play Music</button>
+
+<!-- HERO -->
+<section class="hero d-flex align-items-center text-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold">For My Favorite Person 💗</h1>
+    <p class="lead">A little website made with all my heart</p>
+  </div>
+</section>
+
+<!-- 💌 LOVE LETTER -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center section-title">My Letter to You 💌</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="letter-box">
+          <p>Hi lovey cakey baby koooow,</p>
+          <p>
+            Before mag end ang year na ito I just wanted to take a moment na sabihin sayo how much you really mean to me. From the smallest conversations to the moments we shared together, being with you makes everything feel brighter. You have a way of making my ordinary days feel so special, 
+            and that’s the power only you have. I’m really grateful for every moment we share, kahit nag uusap lang tayo, tumatawa, nag aasaran, nag lalambingan. You make me feel really happy, comfortable, and lucky, and I’m always proud to call you my girlfriend. 
+            I’m really happy to end the year with you and being able to start the year with you. Thank you sa lahat ng mga sacrifices na ginawa mo for me, kahit exams mo at nag aaway tayo love na love mo paren ako. Thank you
+            kasi never ka nag sawa and sumuko saken. Every day na naiisip kita lagi pumapasok sa isip ko kung gaano ako kaswerte na andito ka sa buhay ko. You’re more than just my girlfriend, you’re my favorite person, you’re my safe place,
+            you’re my food buddy, you’re my bestfriend, you’re the one that keeps me going everyday, you’re the one that makes my day very special just by being in it. Pag kasama kita nag-iiba ang takbo ng oras. Yung mga simpleng bagay
+            nagiging very special mweheheheheh. Pag usapan naman natin ang favorite thing ko about you, your smile it has its own way na nalilift agad yung mood ko na kahit badmood ako mawawala agad makita ko lang smile mo. 
+            Even your laugh it really makes me happy to hear you laugh at my corny jokes at mga jokes na kahit nakakainis eh tumatawa kaparen hehe. I really admire who you are love. You’re kindness, you’re patience, and the 
+            way you keep on going even how hard things are going inspires me to be better. You challenge me in the best ways and support me when I need it most. Knowing you believe in me means more than you probably realize. 
+            What I love most is how comfortable i feel with you. I can be myself without pretending or holding back. I feel understood, accepted, appreciated, and most importantly I feel loved, and that is something truly special. With you, I feel complete. 
+            Kahit ano man po ang mangayre sa future I’m very happy na nameet kita today and im sure even with in the future we’re still together loving each other unconditionally. Tinitignan ko palang yung future eh kinikilig nako hehehe. Gusto ko kasama kita 
+            sa pag tanda, sa kasiyahan, kahirapan, katuwaan, at sa lahat ng mga bagay na mangyayare sa future gusto ko ikaw ang kasama ko. Never mawawala tong pag mamahal ko sayo, hinding hindi ito mag babago steady lang to 
+            mas steady pa sa anchor. It will always remain steady, true and genuine. I promise you that you have my heart, my love, my patience, my effort, my all. I will always cherish you endlessly.
+
+          </p>
+          <p class="fw-bold text-end">Always yours 💗,</p>
+          <p class="fw-bold text-end">John Noel Ramilo sobrang pogi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 💕 REASONS I LOVE YOU -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center section-title">Reasons I Love You 💖</h2>
+
+    <div id="loveCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner text-center">
+
+        <div class="carousel-item active"><div class="reason-card">Youre always there for me</div></div>
+        <div class="carousel-item"><div class="reason-card">You always support me</div></div>
+        <div class="carousel-item"><div class="reason-card">You’re patient with me</div></div>
+        <div class="carousel-item"><div class="reason-card">You always remind me to take care of myself</div></div>
+        <div class="carousel-item"><div class="reason-card">You give me food when youre busog na</div></div>
+        <div class="carousel-item"><div class="reason-card">You never get tired of me</div></div>
+        <div class="carousel-item"><div class="reason-card">You treat me food</div></div>
+        <div class="carousel-item"><div class="reason-card">You make sure that I always have snacks</div></div>
+        <div class="carousel-item"><div class="reason-card">You’re beautiful</div></div>
+        <div class="carousel-item"><div class="reason-card">You’re Smart</div></div>
+        <div class="carousel-item"><div class="reason-card">You make me laugh</div></div>
+        <div class="carousel-item"><div class="reason-card">You’re genuine</div></div>
+        <div class="carousel-item"><div class="reason-card">You’re kind</div></div>
+        <div class="carousel-item"><div class="reason-card">You reassure me</div></div>
+        <div class="carousel-item"><div class="reason-card">You’re fun to be with</div></div>
+        <div class="carousel-item"><div class="reason-card">You make my problems disappear</div></div>
+        <div class="carousel-item"><div class="reason-card">You make me feel loved</div></div>
+        <div class="carousel-item"><div class="reason-card">You always cheer me up</div></div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#loveCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#loveCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- 📸 PHOTOS -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center section-title">Our Memories 📸</h2>
+    <div class="row g-4">
+      <div class="col-md-4"><img src="img1.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img2.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img3.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img4.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img5.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img6.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img7.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img8.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img9.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img10.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img11.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img12.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img13.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img14.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img15.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img16.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img17.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img18.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img19.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img20.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img21.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img22.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img23.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img24.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img25.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img26.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img27.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img28.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img29.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img30.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img31.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img32.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img33.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img34.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img35.jfif" class="img-fluid rounded shadow"></div>
+      <div class="col-md-4"><img src="img36.jfif" class="img-fluid rounded shadow"></div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 💗 FINAL I LOVE YOU SCREEN -->
+<section class="final-love d-flex align-items-center text-center">
+  <div class="container">
+    <h1 class="final-text">I Love You!</h1>
+    <p class="final-subtext">
+      This website may end here,<br>
+      but my love for you never will.
+    </p>
+  </div>
+</section>
+
+<footer class="text-center py-4">
+  <p class="mb-0">Made with 💗 just for you</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- 🎶 MUSIC SCRIPT -->
+<script>
+  const music = document.getElementById("bgMusic");
+  const btn = document.querySelector(".music-btn");
+  let isPlaying = false;
+
+  function toggleMusic() {
+    if (!isPlaying) {
+      music.play();
+      btn.innerHTML = "⏸ Pause Music";
+    } else {
+      music.pause();
+      btn.innerHTML = "🎶 Play Music";
+    }
+    isPlaying = !isPlaying;
+  }
+</script>
+
+</body>
+</html>
